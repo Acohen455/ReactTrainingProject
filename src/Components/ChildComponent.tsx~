@@ -21,7 +21,7 @@ export const ChildComponent:React.FC<ChildProps> = ({color, song}) => {
     return(
         <>
             <h4>Hello from the Child Component!</h4>
-            <p>My Parent's favorite color is: {color}</p> {/*use databinding to retrieve the destructured data*/}
+            <p>My Parent's favorite color is: {color}</p> <!--use databinding to retrieve the destructured data -->
             <h5>My Parent's favorite song is: {song}</h5>
         </>
     )

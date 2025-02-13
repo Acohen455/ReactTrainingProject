@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import { FirstComponent } from './Components/FirstComponent'
+import {ParentComponent} from "./Components/ParentComponent.tsx";
 
 
 /* The App.tsx is the root of our app (at least when it comes to rendering views on the page) 
@@ -25,7 +26,8 @@ function App() {
 
       {/* Rendering some custom components below */}
 
-      <FirstComponent/>
+        <FirstComponent/>
+        <ParentComponent />
 
     </>
   )
