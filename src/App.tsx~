@@ -1,0 +1,22 @@
+import { useState } from 'react'
+import reactLogo from './assets/react.svg'
+import viteLogo from '/vite.svg'
+import './App.css'
+
+function App() {
+  const [count, setCount] = useState(0)
+
+  return (
+    <>
+      <h3>Hello React! We'll make great modern UIs with you :)</h3>
+
+      <p>We are writing TSX, which is mostly like HTML, but it's for React. There are small differences</p>
+
+      {/* This is a JSX comment */}
+
+      <h4>React will reload the app with every saved change to the source code. </h4>
+    </>
+  )
+}
+
+export default App
