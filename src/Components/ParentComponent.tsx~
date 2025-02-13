@@ -1,0 +1,15 @@
+export const ParentComponent:React.FC = () => {
+
+
+
+
+    return(
+
+
+
+
+        </>
+        )
+
+
+    }
